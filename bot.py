@@ -17,7 +17,7 @@ PLAYER_NICK = 'DrNykterstein'
 URL_PAGE = f'https://lichess.org/@/{PLAYER_NICK}'
 URL_API = f'https://lichess.org/api/users/status?ids={PLAYER_NICK}'
 
-HELLO_TEXT = f'Hi!\n\nThis simple bot sends message to you when {PLAYER_NAME} (aka [{PLAYER_NICK}]({URL_PAGE})) plays on lichess.org'
+HELLO_TEXT = f'Hi!\n\nThis simple bot will notify you when {PLAYER_NAME} (aka [{PLAYER_NICK}]({URL_PAGE})) plays on lichess.org'
 PLAYING_TEXT = f'{PLAYER_NAME} is playing right now! {URL_PAGE}'
 
 TIME_DELAY_SEC = 10 * 60
