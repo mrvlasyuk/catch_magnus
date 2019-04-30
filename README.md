@@ -1,5 +1,5 @@
 ## What is it?
-This simple Telegram bot will notify you when Magnus Carlsen (aka [DrNykterstein](https://lichess.org/@/DrNykterstein)) plays on [lichess.org](https://lichess.org/).
+This simple Telegram bot will notify you when Magnus Carlsen (aka [DrNykterstein](https://lichess.org/@/DrNykterstein)) plays chess on [lichess.org](https://lichess.org/).
 
 ## How to use
 Telegram link: [`@catch_magnus_bot`](https://t.me/catch_magnus_bot)
