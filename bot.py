@@ -69,7 +69,6 @@ class TelegramBot:
         updater = Updater(token=api_key)
         dispatcher = updater.dispatcher
 
-
         start_handler = CommandHandler('start', self.send_greetings)
         conv_handler = ConversationHandler(
             entry_points=[start_handler],
@@ -103,6 +102,7 @@ class TelegramBot:
             except:
                 traceback.print_exc()
                 print(f'Error sending to {user}. Skipping')
+            time.sleep(1)
 
     def run_forever(self):
         self.updater.start_polling()
