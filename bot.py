@@ -14,7 +14,7 @@ import config
 PLAYER_NAME = 'Magnus Carlsen'
 PLAYER_NICK = 'DrNykterstein'
 
-URL_PAGE = f'https://lichess.org/@/{PLAYER_NICK}'
+URL_PAGE = f'https://lichess.org/@/{PLAYER_NICK}/tv'
 URL_API = f'https://lichess.org/api/users/status?ids={PLAYER_NICK}'
 
 HELLO_TEXT = f'Hi!\n\nThis simple bot will notify you when {PLAYER_NAME} (aka [{PLAYER_NICK}]({URL_PAGE})) plays on lichess.org'
